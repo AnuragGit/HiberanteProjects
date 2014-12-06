@@ -43,6 +43,7 @@
 
         <!-- This is the entity class that we'll be testing. -->
         <mapping class="com.anurag.tutorial.model.DemoActor"/>
+        <mapping class="com.anurag.tutorial.model.UserDetails"/>
 
     </session-factory>
 </hibernate-configuration>

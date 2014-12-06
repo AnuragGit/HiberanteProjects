@@ -20,11 +20,11 @@
         </appender>
 
         <logger name="org.hibernate">
-            <level value="DEBUG"/>
+            <level value="INFO"/>
             <appender-ref ref="fileAppender"/>
         </logger>
 
-        <logger name="com.codesolid.tests">
+        <logger name="com.anurag.tutorial.test">
             <level value="DEBUG" />
             <appender-ref ref="fileAppender"/>
         </logger>

@@ -11,7 +11,7 @@ import com.anurag.tutorial.util.HibernateUtil;
 
 @RunWith( Suite.class )
 @Suite.SuiteClasses( {
-        TestStorage.class
+        TestStorage.class,TestUserDetails.class
         /* , Add more test classes here separated by commas*/
 } )
 public class RuleSuite{
@@ -26,14 +26,14 @@ public class RuleSuite{
     public static ExternalResource testRule = new ExternalResource(){
         @Override
         protected void before() throws Throwable{
-            Logger.getLogger("com.codesolid.tests").log(Level.DEBUG, "Inside RuleSuite::ExternalResource::before.");
-            util = new HibernateUtil();
+            Logger.getLogger("com.anurag.tutorial.test").log(Level.DEBUG, "Inside RuleSuite::ExternalResource::before.");
+          /*  util = new HibernateUtil();*/
         }
 
         @Override
         protected void after(){
             // Nothing to do here in this case.
-            Logger.getLogger("com.codesolid.tests").log(Level.DEBUG, "Inside RuleSuite::ExternalResource::after.");
+            Logger.getLogger("com.anurag.tutorial.test").log(Level.DEBUG, "Inside RuleSuite::ExternalResource::after.");
         }
     };
 }
