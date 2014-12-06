@@ -49,6 +49,12 @@
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails2"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails3"/>
+        <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails4"/>
+        
+        <!--  One to One Mapping -->
+        <mapping class="com.anurag.tutorial.model.OneToOneUserMapping"/>
+        <mapping class="com.anurag.tutorial.model.OneToOneVehicalMapping"/>
+
 
     </session-factory>
 </hibernate-configuration>

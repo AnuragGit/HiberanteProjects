@@ -14,7 +14,7 @@ import com.anurag.tutorial.model.UserDetails;
  *   Concept:- This program show how hibernate use proxy object in case of loading another list of relations.
  *             proxy class load relational data when it require .
  *             it work only under the session if we close the session and try to get the relation you will get below
- *             lazi initilize exception.
+ *             Lazy initialize exception.
  *              
  *
  */
