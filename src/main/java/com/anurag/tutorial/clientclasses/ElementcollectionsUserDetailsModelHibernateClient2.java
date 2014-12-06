@@ -5,7 +5,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
 
 import com.anurag.tutorial.model.Address;
-import com.anurag.tutorial.model.ElementcollectionsUserDetails;
 import com.anurag.tutorial.model.ElementcollectionsUserDetails2;
 
 public class ElementcollectionsUserDetailsModelHibernateClient2 {

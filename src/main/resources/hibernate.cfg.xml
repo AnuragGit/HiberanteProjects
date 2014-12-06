@@ -48,6 +48,7 @@
         <mapping class="com.anurag.tutorial.model.EmbededUserDetails2"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails2"/>
+        <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails3"/>
 
     </session-factory>
 </hibernate-configuration>
