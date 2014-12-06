@@ -1,0 +1,461 @@
+2014-12-06 09:55:09,190                         DEBUG  [BasicTypeRegistry] Adding type registration boolean -> org.hibernate.type.BooleanType@16ba7f9 
+2014-12-06 09:55:09,190                         DEBUG  [BasicTypeRegistry] Adding type registration boolean -> org.hibernate.type.BooleanType@16ba7f9 
+2014-12-06 09:55:09,191                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@16ba7f9 
+2014-12-06 09:55:09,192                         DEBUG  [BasicTypeRegistry] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@161c602 
+2014-12-06 09:55:09,194                         DEBUG  [BasicTypeRegistry] Adding type registration true_false -> org.hibernate.type.TrueFalseType@e2da7a 
+2014-12-06 09:55:09,194                         DEBUG  [BasicTypeRegistry] Adding type registration yes_no -> org.hibernate.type.YesNoType@6558bb 
+2014-12-06 09:55:09,197                         DEBUG  [BasicTypeRegistry] Adding type registration byte -> org.hibernate.type.ByteType@1b3cc96 
+2014-12-06 09:55:09,197                         DEBUG  [BasicTypeRegistry] Adding type registration byte -> org.hibernate.type.ByteType@1b3cc96 
+2014-12-06 09:55:09,197                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1b3cc96 
+2014-12-06 09:55:09,199                         DEBUG  [BasicTypeRegistry] Adding type registration character -> org.hibernate.type.CharacterType@1dea651 
+2014-12-06 09:55:09,199                         DEBUG  [BasicTypeRegistry] Adding type registration char -> org.hibernate.type.CharacterType@1dea651 
+2014-12-06 09:55:09,199                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1dea651 
+2014-12-06 09:55:09,202                         DEBUG  [BasicTypeRegistry] Adding type registration short -> org.hibernate.type.ShortType@1f60f2b 
+2014-12-06 09:55:09,202                         DEBUG  [BasicTypeRegistry] Adding type registration short -> org.hibernate.type.ShortType@1f60f2b 
+2014-12-06 09:55:09,202                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1f60f2b 
+2014-12-06 09:55:09,204                         DEBUG  [BasicTypeRegistry] Adding type registration integer -> org.hibernate.type.IntegerType@4c9860 
+2014-12-06 09:55:09,204                         DEBUG  [BasicTypeRegistry] Adding type registration int -> org.hibernate.type.IntegerType@4c9860 
+2014-12-06 09:55:09,204                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4c9860 
+2014-12-06 09:55:09,206                         DEBUG  [BasicTypeRegistry] Adding type registration long -> org.hibernate.type.LongType@e823ac 
+2014-12-06 09:55:09,206                         DEBUG  [BasicTypeRegistry] Adding type registration long -> org.hibernate.type.LongType@e823ac 
+2014-12-06 09:55:09,206                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Long -> org.hibernate.type.LongType@e823ac 
+2014-12-06 09:55:09,209                         DEBUG  [BasicTypeRegistry] Adding type registration float -> org.hibernate.type.FloatType@11a67fe 
+2014-12-06 09:55:09,209                         DEBUG  [BasicTypeRegistry] Adding type registration float -> org.hibernate.type.FloatType@11a67fe 
+2014-12-06 09:55:09,209                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@11a67fe 
+2014-12-06 09:55:09,211                         DEBUG  [BasicTypeRegistry] Adding type registration double -> org.hibernate.type.DoubleType@c80825 
+2014-12-06 09:55:09,211                         DEBUG  [BasicTypeRegistry] Adding type registration double -> org.hibernate.type.DoubleType@c80825 
+2014-12-06 09:55:09,211                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@c80825 
+2014-12-06 09:55:09,214                         DEBUG  [BasicTypeRegistry] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@831c19 
+2014-12-06 09:55:09,214                         DEBUG  [BasicTypeRegistry] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@831c19 
+2014-12-06 09:55:09,215                         DEBUG  [BasicTypeRegistry] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@78b73f 
+2014-12-06 09:55:09,215                         DEBUG  [BasicTypeRegistry] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@78b73f 
+2014-12-06 09:55:09,217                         DEBUG  [BasicTypeRegistry] Adding type registration string -> org.hibernate.type.StringType@c821ef 
+2014-12-06 09:55:09,217                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.String -> org.hibernate.type.StringType@c821ef 
+2014-12-06 09:55:09,224                         DEBUG  [BasicTypeRegistry] Adding type registration url -> org.hibernate.type.UrlType@195ba08 
+2014-12-06 09:55:09,224                         DEBUG  [BasicTypeRegistry] Adding type registration java.net.URL -> org.hibernate.type.UrlType@195ba08 
+2014-12-06 09:55:09,227                         DEBUG  [BasicTypeRegistry] Adding type registration date -> org.hibernate.type.DateType@1aa3554 
+2014-12-06 09:55:09,227                         DEBUG  [BasicTypeRegistry] Adding type registration java.sql.Date -> org.hibernate.type.DateType@1aa3554 
+2014-12-06 09:55:09,230                         DEBUG  [BasicTypeRegistry] Adding type registration time -> org.hibernate.type.TimeType@1c5a30b 
+2014-12-06 09:55:09,230                         DEBUG  [BasicTypeRegistry] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1c5a30b 
+2014-12-06 09:55:09,232                         DEBUG  [BasicTypeRegistry] Adding type registration timestamp -> org.hibernate.type.TimestampType@1da1f99 
+2014-12-06 09:55:09,232                         DEBUG  [BasicTypeRegistry] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1da1f99 
+2014-12-06 09:55:09,232                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1da1f99 
+2014-12-06 09:55:09,234                         DEBUG  [BasicTypeRegistry] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@9f5742 
+2014-12-06 09:55:09,235                         DEBUG  [BasicTypeRegistry] Adding type registration calendar -> org.hibernate.type.CalendarType@c9aff0 
+2014-12-06 09:55:09,235                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@c9aff0 
+2014-12-06 09:55:09,236                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@c9aff0 
+2014-12-06 09:55:09,237                         DEBUG  [BasicTypeRegistry] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@a7f8a4 
+2014-12-06 09:55:09,238                         DEBUG  [BasicTypeRegistry] Adding type registration locale -> org.hibernate.type.LocaleType@1304421 
+2014-12-06 09:55:09,238                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1304421 
+2014-12-06 09:55:09,239                         DEBUG  [BasicTypeRegistry] Adding type registration currency -> org.hibernate.type.CurrencyType@22b7f8 
+2014-12-06 09:55:09,239                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@22b7f8 
+2014-12-06 09:55:09,241                         DEBUG  [BasicTypeRegistry] Adding type registration timezone -> org.hibernate.type.TimeZoneType@883f8f 
+2014-12-06 09:55:09,241                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@883f8f 
+2014-12-06 09:55:09,242                         DEBUG  [BasicTypeRegistry] Adding type registration class -> org.hibernate.type.ClassType@3c855e 
+2014-12-06 09:55:09,242                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3c855e 
+2014-12-06 09:55:09,245                         DEBUG  [BasicTypeRegistry] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@96a680 
+2014-12-06 09:55:09,245                         DEBUG  [BasicTypeRegistry] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@96a680 
+2014-12-06 09:55:09,246                         DEBUG  [BasicTypeRegistry] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@17ff60e 
+2014-12-06 09:55:09,247                         DEBUG  [BasicTypeRegistry] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@16c634 
+2014-12-06 09:55:09,248                         DEBUG  [BasicTypeRegistry] Adding type registration binary -> org.hibernate.type.BinaryType@c08c5 
+2014-12-06 09:55:09,249                         DEBUG  [BasicTypeRegistry] Adding type registration byte[] -> org.hibernate.type.BinaryType@c08c5 
+2014-12-06 09:55:09,249                         DEBUG  [BasicTypeRegistry] Adding type registration [B -> org.hibernate.type.BinaryType@c08c5 
+2014-12-06 09:55:09,250                         DEBUG  [BasicTypeRegistry] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1246bec 
+2014-12-06 09:55:09,250                         DEBUG  [BasicTypeRegistry] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1246bec 
+2014-12-06 09:55:09,250                         DEBUG  [BasicTypeRegistry] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1246bec 
+2014-12-06 09:55:09,251                         DEBUG  [BasicTypeRegistry] Adding type registration image -> org.hibernate.type.ImageType@15fb94a 
+2014-12-06 09:55:09,252                         DEBUG  [BasicTypeRegistry] Adding type registration characters -> org.hibernate.type.CharArrayType@e4436 
+2014-12-06 09:55:09,253                         DEBUG  [BasicTypeRegistry] Adding type registration char[] -> org.hibernate.type.CharArrayType@e4436 
+2014-12-06 09:55:09,253                         DEBUG  [BasicTypeRegistry] Adding type registration [C -> org.hibernate.type.CharArrayType@e4436 
+2014-12-06 09:55:09,254                         DEBUG  [BasicTypeRegistry] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7a39ea 
+2014-12-06 09:55:09,254                         DEBUG  [BasicTypeRegistry] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7a39ea 
+2014-12-06 09:55:09,254                         DEBUG  [BasicTypeRegistry] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7a39ea 
+2014-12-06 09:55:09,255                         DEBUG  [BasicTypeRegistry] Adding type registration text -> org.hibernate.type.TextType@1b5e410 
+2014-12-06 09:55:09,258                         DEBUG  [BasicTypeRegistry] Adding type registration blob -> org.hibernate.type.BlobType@1075056 
+2014-12-06 09:55:09,258                         DEBUG  [BasicTypeRegistry] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1075056 
+2014-12-06 09:55:09,258                         DEBUG  [BasicTypeRegistry] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6d65fd 
+2014-12-06 09:55:09,261                         DEBUG  [BasicTypeRegistry] Adding type registration clob -> org.hibernate.type.ClobType@37fd24 
+2014-12-06 09:55:09,261                         DEBUG  [BasicTypeRegistry] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@37fd24 
+2014-12-06 09:55:09,261                         DEBUG  [BasicTypeRegistry] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@60c384 
+2014-12-06 09:55:09,263                         DEBUG  [BasicTypeRegistry] Adding type registration serializable -> org.hibernate.type.SerializableType@920ee7 
+2014-12-06 09:55:09,267                         DEBUG  [BasicTypeRegistry] Adding type registration object -> org.hibernate.type.ObjectType@1ec0b 
+2014-12-06 09:55:09,267                         DEBUG  [BasicTypeRegistry] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1ec0b 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1aac78d 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1132f26 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7ca7f0 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1f5ba55 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@19c5ce6 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@971e9d 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@15ae101 
+2014-12-06 09:55:09,268                         DEBUG  [BasicTypeRegistry] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@16a16ae 
+2014-12-06 09:55:09,293                         INFO   [Version] Hibernate Commons Annotations 3.2.0.Final 
+2014-12-06 09:55:09,299                         INFO   [Environment] Hibernate 3.6.0.Final 
+2014-12-06 09:55:09,301                         INFO   [Environment] hibernate.properties not found 
+2014-12-06 09:55:09,304                         INFO   [Environment] Bytecode provider name : javassist 
+2014-12-06 09:55:09,308                         INFO   [Environment] using JDK 1.4 java.sql.Timestamp handling 
+2014-12-06 09:55:09,373                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator] 
+2014-12-06 09:55:09,374                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator] 
+2014-12-06 09:55:09,375                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator] 
+2014-12-06 09:55:09,375                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator] 
+2014-12-06 09:55:09,377                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator] 
+2014-12-06 09:55:09,377                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned] 
+2014-12-06 09:55:09,378                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator] 
+2014-12-06 09:55:09,379                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator] 
+2014-12-06 09:55:09,379                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator] 
+2014-12-06 09:55:09,380                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator] 
+2014-12-06 09:55:09,380                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator] 
+2014-12-06 09:55:09,381                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator] 
+2014-12-06 09:55:09,381                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator] 
+2014-12-06 09:55:09,382                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator] 
+2014-12-06 09:55:09,383                         DEBUG  [DefaultIdentifierGeneratorFactory] Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator] 
+2014-12-06 09:55:09,385                         INFO   [Configuration] configuring from resource: /hibernate.cfg.xml 
+2014-12-06 09:55:09,385                         INFO   [Configuration] Configuration resource: /hibernate.cfg.xml 
+2014-12-06 09:55:09,418                         DEBUG  [DTDEntityResolver] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] 
+2014-12-06 09:55:09,418                         WARN   [DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2014-12-06 09:55:09,418                         DEBUG  [DTDEntityResolver] attempting to resolve on classpath under org/hibernate/ 
+2014-12-06 09:55:09,419                         DEBUG  [DTDEntityResolver] located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] connection.driver_class=com.mysql.jdbc.Driver 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] connection.url=jdbc:mysql://localhost:3306/hibernatedb 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] connection.username=root 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] connection.password=root 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] connection.pool_size=1 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] dialect=org.hibernate.dialect.MySQL5InnoDBDialect 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] current_session_context_class=thread 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] cache.provider_class=org.hibernate.cache.NoCacheProvider 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] show_sql=true 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] use_sql_comments=false 
+2014-12-06 09:55:09,443                         DEBUG  [Configuration] hbm2ddl.auto=create 
+2014-12-06 09:55:09,444                         DEBUG  [Configuration] session-factory config [null] named class [com.anurag.tutorial.model.DemoActor] for mapping 
+2014-12-06 09:55:09,453                         INFO   [Configuration] Configured SessionFactory: null 
+2014-12-06 09:55:09,453                         DEBUG  [Configuration] properties: {show_sql=true, java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernatedb, sun.management.compiler=HotSpot Client Compiler, use_sql_comments=false, hbm2ddl.auto=create, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_04\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_04\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_04-b20, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=Anurag, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_04\jre\bin, dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.version=1.7.0_04, user.timezone=Asia/Calcutta, sun.arch.data.model=32, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_04\jre\lib\endorsed, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/hibernatedb, java.home=C:\Program Files\Java\jdk1.7.0_04\jre, java.vm.info=mixed mode, sharing, os.version=6.1, path.separator=;, connection.password=root, java.vm.version=23.0-b21, hibernate.connection.password=root, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\Anurag, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jdk1.7.0_04\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\Java\jdk1.7.0_04\bin;%M2_HOME%\bin;C:\Users\Anurag\Downloads\Compressed\apache-maven-3.1.0-bin\apache-maven-3.1.0\bin;C:\Users\Anurag\Downloads\Compressed\gradle-1.6-all\gradle-1.6\bin;C:\Program Files\Smart Projects\IsoBuster;.;C:\Program Files\Java\jdk1.7.0_04\bin;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 1305 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.anurag.tutorial.test.TestStorage, java.class.path=D:\STS_Workspace\HibernatePractices\HiberanteGeneric\target\test-classes;D:\STS_Workspace\HibernatePractices\HiberanteGeneric\target\classes;C:\Users\Anurag\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Anurag\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-core\3.6.0.Final\hibernate-core-3.6.0.Final.jar;C:\Users\Anurag\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\Anurag\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\Anurag\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\Anurag\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\Anurag\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-annotations\3.5.6-Final\hibernate-annotations-3.5.6-Final.jar;C:\Users\Anurag\.m2\repository\org\hsqldb\hsqldb\2.0.0\hsqldb-2.0.0.jar;C:\Users\Anurag\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\Users\Anurag\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Anurag\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Anurag\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Anurag\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;/D:/STS/sts-3.5.1.RELEASE/configuration/org.eclipse.osgi/bundles/409/1/.cp/;/D:/STS/sts-3.5.1.RELEASE/configuration/org.eclipse.osgi/bundles/408/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, connection.pool_size=1, java.io.tmpdir=C:\Users\Anurag\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=x86, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_04\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.use_sql_comments=false, user.dir=D:\STS_Workspace\HibernatePractices\HiberanteGeneric, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=UTF-8, java.specification.version=1.7, hibernate.show_sql=true, hibernate.connection.pool_size=1} 
+2014-12-06 09:55:09,453                         DEBUG  [Configuration] Preparing to build session factory with filters : {} 
+2014-12-06 09:55:09,502                         DEBUG  [Configuration] Processing hbm.xml files 
+2014-12-06 09:55:09,502                         DEBUG  [Configuration] Process annotated classes 
+2014-12-06 09:55:09,508                         INFO   [AnnotationBinder] Binding entity from annotated class: com.anurag.tutorial.model.DemoActor 
+2014-12-06 09:55:09,539                         DEBUG  [Ejb3Column] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+2014-12-06 09:55:09,542                         DEBUG  [AnnotationBinder] no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED 
+2014-12-06 09:55:09,552                         DEBUG  [EntityBinder] Import with entity name DemoActor 
+2014-12-06 09:55:09,556                         INFO   [EntityBinder] Bind entity com.anurag.tutorial.model.DemoActor on table ACTORS 
+2014-12-06 09:55:09,597                         DEBUG  [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ACTORS), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+2014-12-06 09:55:09,601                         DEBUG  [PropertyBinder] binding property id with lazy=false 
+2014-12-06 09:55:09,604                         DEBUG  [SimpleValueBinder] building SimpleValue for id 
+2014-12-06 09:55:09,606                         DEBUG  [PropertyBinder] Building property id 
+2014-12-06 09:55:09,611                         DEBUG  [Ejb3Column] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(ACTORS), mappingColumn=user_role, insertable=true, updatable=true, unique=false} 
+2014-12-06 09:55:09,611                         DEBUG  [PropertyBinder] binding property role with lazy=false 
+2014-12-06 09:55:09,612                         DEBUG  [SimpleValueBinder] building SimpleValue for role 
+2014-12-06 09:55:09,612                         DEBUG  [PropertyBinder] Building property role 
+2014-12-06 09:55:09,614                         DEBUG  [SimpleValueBinder] Setting SimpleValue typeName for id 
+2014-12-06 09:55:09,614                         DEBUG  [SimpleValueBinder] Setting SimpleValue typeName for role 
+2014-12-06 09:55:09,620                         DEBUG  [Configuration] processing fk mappings (*ToOne and JoinedSubclass) 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing collection mappings 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing native query and ResultSetMapping mappings 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing association property references 
+2014-12-06 09:55:09,622                         DEBUG  [Configuration] processing foreign key constraints 
+2014-12-06 09:55:09,623                         INFO   [Configuration] Hibernate Validator not found: ignoring 
+2014-12-06 09:55:09,625                         DEBUG  [Configuration] Legacy Validator not present in classpath, ignoring event listener registration 
+2014-12-06 09:55:09,628                         DEBUG  [HibernateSearchEventListenerRegister] Search not present in classpath, ignoring event listener registration. 
+2014-12-06 09:55:09,628                         INFO   [HibernateSearchEventListenerRegister] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled. 
+2014-12-06 09:55:09,636                         INFO   [DriverManagerConnectionProvider] Using Hibernate built-in connection pool (not for production use!) 
+2014-12-06 09:55:09,636                         INFO   [DriverManagerConnectionProvider] Hibernate connection pool size: 1 
+2014-12-06 09:55:09,636                         INFO   [DriverManagerConnectionProvider] autocommit mode: false 
+2014-12-06 09:55:09,645                         INFO   [DriverManagerConnectionProvider] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/hibernatedb 
+2014-12-06 09:55:09,645                         INFO   [DriverManagerConnectionProvider] connection properties: {user=root, password=root} 
+2014-12-06 09:55:09,645                         DEBUG  [DriverManagerConnectionProvider] opening new JDBC connection 
+2014-12-06 09:55:09,989                         DEBUG  [DriverManagerConnectionProvider] created connection to: jdbc:mysql://localhost:3306/hibernatedb, Isolation Level: 4 
+2014-12-06 09:55:09,989                         INFO   [SettingsFactory] Database ->
+       name : MySQL
+    version : 5.5.9
+      major : 5
+      minor : 5 
+2014-12-06 09:55:09,989                         INFO   [SettingsFactory] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1 
+2014-12-06 09:55:10,012                         INFO   [Dialect] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect 
+2014-12-06 09:55:10,022                         INFO   [JdbcSupportLoader] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4 
+2014-12-06 09:55:10,023                         INFO   [TransactionFactoryFactory] Using default transaction strategy (direct JDBC transactions) 
+2014-12-06 09:55:10,025                         INFO   [TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended) 
+2014-12-06 09:55:10,025                         INFO   [SettingsFactory] Automatic flush during beforeCompletion(): disabled 
+2014-12-06 09:55:10,025                         INFO   [SettingsFactory] Automatic session close at end of transaction: disabled 
+2014-12-06 09:55:10,025                         INFO   [SettingsFactory] JDBC batch size: 15 
+2014-12-06 09:55:10,025                         INFO   [SettingsFactory] JDBC batch updates for versioned data: disabled 
+2014-12-06 09:55:10,025                         INFO   [SettingsFactory] Scrollable result sets: enabled 
+2014-12-06 09:55:10,026                         DEBUG  [SettingsFactory] Wrap result sets: disabled 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] JDBC3 getGeneratedKeys(): enabled 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] Connection release mode: auto 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] Maximum outer join fetch depth: 2 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] Default batch fetch size: 1 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] Generate SQL with comments: disabled 
+2014-12-06 09:55:10,026                         INFO   [SettingsFactory] Order SQL updates by primary key: disabled 
+2014-12-06 09:55:10,027                         INFO   [SettingsFactory] Order SQL inserts for batching: disabled 
+2014-12-06 09:55:10,027                         INFO   [SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory 
+2014-12-06 09:55:10,028                         INFO   [ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory 
+2014-12-06 09:55:10,028                         INFO   [SettingsFactory] Query language substitutions: {} 
+2014-12-06 09:55:10,028                         INFO   [SettingsFactory] JPA-QL strict compliance: disabled 
+2014-12-06 09:55:10,028                         INFO   [SettingsFactory] Second-level cache: enabled 
+2014-12-06 09:55:10,028                         INFO   [SettingsFactory] Query cache: disabled 
+2014-12-06 09:55:10,029                         INFO   [SettingsFactory] Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge 
+2014-12-06 09:55:10,033                         INFO   [RegionFactoryCacheProviderBridge] Cache provider: org.hibernate.cache.NoCacheProvider 
+2014-12-06 09:55:10,033                         INFO   [SettingsFactory] Optimize cache for minimal puts: disabled 
+2014-12-06 09:55:10,033                         INFO   [SettingsFactory] Structured second-level cache entries: disabled 
+2014-12-06 09:55:10,037                         INFO   [SettingsFactory] Echoing all SQL to stdout 
+2014-12-06 09:55:10,038                         INFO   [SettingsFactory] Statistics: disabled 
+2014-12-06 09:55:10,038                         INFO   [SettingsFactory] Deleted entity synthetic identifier rollback: disabled 
+2014-12-06 09:55:10,038                         INFO   [SettingsFactory] Default entity-mode: pojo 
+2014-12-06 09:55:10,038                         INFO   [SettingsFactory] Named query checking : enabled 
+2014-12-06 09:55:10,038                         INFO   [SettingsFactory] Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+2014-12-06 09:55:10,066                         INFO   [SessionFactoryImpl] building session factory 
+2014-12-06 09:55:10,071                         DEBUG  [SessionFactoryImpl] Statistics initialized [enabled=false]} 
+2014-12-06 09:55:10,074                         DEBUG  [SessionFactoryImpl] Session factory constructed with filter configurations : {} 
+2014-12-06 09:55:10,074                         DEBUG  [SessionFactoryImpl] instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=true, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/hibernatedb, sun.management.compiler=HotSpot Client Compiler, use_sql_comments=false, os.name=Windows 7, hbm2ddl.auto=create, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_04\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_04\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_04\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_04-b20, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=Anurag, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_04\jre\bin, dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.version=1.7.0_04, user.timezone=Asia/Calcutta, sun.arch.data.model=32, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_04\jre\lib\endorsed, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/hibernatedb, java.home=C:\Program Files\Java\jdk1.7.0_04\jre, java.vm.info=mixed mode, sharing, os.version=6.1, path.separator=;, connection.password=root, java.vm.version=23.0-b21, hibernate.connection.password=root, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\Anurag, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jdk1.7.0_04\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\Java\jdk1.7.0_04\bin;%M2_HOME%\bin;C:\Users\Anurag\Downloads\Compressed\apache-maven-3.1.0-bin\apache-maven-3.1.0\bin;C:\Users\Anurag\Downloads\Compressed\gradle-1.6-all\gradle-1.6\bin;C:\Program Files\Smart Projects\IsoBuster;.;C:\Program Files\Java\jdk1.7.0_04\bin;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 1305 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.anurag.tutorial.test.TestStorage, java.class.path=D:\STS_Workspace\HibernatePractices\HiberanteGeneric\target\test-classes;D:\STS_Workspace\HibernatePractices\HiberanteGeneric\target\classes;C:\Users\Anurag\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Anurag\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-core\3.6.0.Final\hibernate-core-3.6.0.Final.jar;C:\Users\Anurag\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\Anurag\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\Anurag\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\Anurag\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\Anurag\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\Anurag\.m2\repository\org\hibernate\hibernate-annotations\3.5.6-Final\hibernate-annotations-3.5.6-Final.jar;C:\Users\Anurag\.m2\repository\org\hsqldb\hsqldb\2.0.0\hsqldb-2.0.0.jar;C:\Users\Anurag\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\Users\Anurag\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Anurag\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Anurag\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Anurag\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;/D:/STS/sts-3.5.1.RELEASE/configuration/org.eclipse.osgi/bundles/409/1/.cp/;/D:/STS/sts-3.5.1.RELEASE/configuration/org.eclipse.osgi/bundles/408/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, connection.pool_size=1, java.io.tmpdir=C:\Users\Anurag\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=x86, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_04\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.use_sql_comments=false, user.dir=D:\STS_Workspace\HibernatePractices\HiberanteGeneric, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=UTF-8, java.specification.version=1.7, hibernate.connection.pool_size=1, hibernate.show_sql=true} 
+2014-12-06 09:55:10,086                         DEBUG  [DefaultIdentifierGeneratorFactory] Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect] 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister] Static SQL for entity: com.anurag.tutorial.model.DemoActor 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister]  Version select: select id from ACTORS where id =? 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister]  Snapshot select: select demoactor_.id, demoactor_.user_role as user2_0_ from ACTORS demoactor_ where demoactor_.id=? 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister]  Insert 0: insert into ACTORS (user_role, id) values (?, ?) 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister]  Update 0: update ACTORS set user_role=? where id=? 
+2014-12-06 09:55:10,237                         DEBUG  [AbstractEntityPersister]  Delete 0: delete from ACTORS where id=? 
+2014-12-06 09:55:10,262                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [NONE]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [READ]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [UPGRADE]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? for update 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [UPGRADE_NOWAIT]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? for update 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [FORCE]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? for update 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [PESSIMISTIC_READ]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? lock in share mode 
+2014-12-06 09:55:10,263                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [PESSIMISTIC_WRITE]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? for update 
+2014-12-06 09:55:10,264                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [PESSIMISTIC_FORCE_INCREMENT]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? for update 
+2014-12-06 09:55:10,264                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [OPTIMISTIC]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,264                         DEBUG  [EntityLoader] Static select for entity com.anurag.tutorial.model.DemoActor [OPTIMISTIC_FORCE_INCREMENT]: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,271                         DEBUG  [EntityLoader] Static select for action ACTION_MERGE on entity com.anurag.tutorial.model.DemoActor: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,271                         DEBUG  [EntityLoader] Static select for action ACTION_REFRESH on entity com.anurag.tutorial.model.DemoActor: select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,427                         DEBUG  [SessionFactoryObjectFactory] initializing class SessionFactoryObjectFactory 
+2014-12-06 09:55:10,429                         DEBUG  [SessionFactoryObjectFactory] registered: 6d47637c-ba6e-4dda-ba6e-0e02d2689a65 (unnamed) 
+2014-12-06 09:55:10,429                         INFO   [SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured 
+2014-12-06 09:55:10,429                         DEBUG  [SessionFactoryImpl] instantiated session factory 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] Processing hbm.xml files 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] Process annotated classes 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing fk mappings (*ToOne and JoinedSubclass) 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing collection mappings 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing native query and ResultSetMapping mappings 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing association property references 
+2014-12-06 09:55:10,435                         DEBUG  [Configuration] processing foreign key constraints 
+2014-12-06 09:55:10,436                         DEBUG  [DefaultIdentifierGeneratorFactory] Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect] 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] Processing hbm.xml files 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] Process annotated classes 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing fk mappings (*ToOne and JoinedSubclass) 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing extends queue 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing collection mappings 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing native query and ResultSetMapping mappings 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing association property references 
+2014-12-06 09:55:10,437                         DEBUG  [Configuration] processing foreign key constraints 
+2014-12-06 09:55:10,438                         DEBUG  [DefaultIdentifierGeneratorFactory] Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect] 
+2014-12-06 09:55:10,439                         DEBUG  [DefaultIdentifierGeneratorFactory] Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect] 
+2014-12-06 09:55:10,441                         INFO   [SchemaExport] Running hbm2ddl schema export 
+2014-12-06 09:55:10,442                         DEBUG  [SchemaExport] import file not found: /import.sql 
+2014-12-06 09:55:10,442                         INFO   [SchemaExport] exporting generated schema to database 
+2014-12-06 09:55:10,443                         DEBUG  [SchemaExport] drop table if exists ACTORS 
+2014-12-06 09:55:10,490                         DEBUG  [SchemaExport] create table ACTORS (id bigint not null, user_role varchar(255), primary key (id)) ENGINE=InnoDB 
+2014-12-06 09:55:10,582                         INFO   [SchemaExport] schema export complete 
+2014-12-06 09:55:10,602                         DEBUG  [SessionFactoryImpl] Checking 0 named HQL queries 
+2014-12-06 09:55:10,602                         DEBUG  [SessionFactoryImpl] Checking 0 named SQL queries 
+2014-12-06 09:55:10,653                         DEBUG  [SessionImpl] opened session at timestamp: 14178399106 
+2014-12-06 09:55:10,696                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:10,696                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:10,696                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:10,701                         DEBUG  [IncrementGenerator] fetching initial value: select max(id) from ACTORS 
+2014-12-06 09:55:10,702                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,702                         DEBUG  [SQL] select max(id) from ACTORS 
+2014-12-06 09:55:10,716                         DEBUG  [IncrementGenerator] first free id: 1 
+2014-12-06 09:55:10,716                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:10,716                         DEBUG  [AbstractSaveEventListener] generated identifier: 1, using strategy: org.hibernate.id.IncrementGenerator 
+2014-12-06 09:55:10,727                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:10,727                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:10,728                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:10,729                         DEBUG  [AbstractFlushingEventListener] Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:10,730                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:10,730                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:10,731                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=1, role=SuperUser} 
+2014-12-06 09:55:10,734                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,734                         DEBUG  [SQL] insert into ACTORS (user_role, id) values (?, ?) 
+2014-12-06 09:55:10,738                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:10,739                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:10,886                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:10,886                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:10,886                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:10,888                         DEBUG  [SessionImpl] opened session at timestamp: 14178399108 
+2014-12-06 09:55:10,888                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:10,888                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:10,888                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:10,891                         DEBUG  [Loader] loading entity: [com.anurag.tutorial.model.DemoActor#1] 
+2014-12-06 09:55:10,891                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,891                         DEBUG  [SQL] select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:10,893                         DEBUG  [AbstractBatcher] about to open ResultSet (open ResultSets: 0, globally: 0) 
+2014-12-06 09:55:10,893                         DEBUG  [Loader] result row: EntityKey[com.anurag.tutorial.model.DemoActor#1] 
+2014-12-06 09:55:10,896                         DEBUG  [AbstractBatcher] about to close ResultSet (open ResultSets: 1, globally: 1) 
+2014-12-06 09:55:10,897                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:10,899                         DEBUG  [TwoPhaseLoad] resolving associations for [com.anurag.tutorial.model.DemoActor#1] 
+2014-12-06 09:55:10,900                         DEBUG  [TwoPhaseLoad] done materializing entity [com.anurag.tutorial.model.DemoActor#1] 
+2014-12-06 09:55:10,900                         DEBUG  [StatefulPersistenceContext] initializing non-lazy collections 
+2014-12-06 09:55:10,900                         DEBUG  [Loader] done entity load 
+2014-12-06 09:55:10,900                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:10,900                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:10,900                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:10,900                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:10,900                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:10,900                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:10,900                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=1, role=SuperUser} 
+2014-12-06 09:55:10,901                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:10,901                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:10,901                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:10,902                         DEBUG  [SessionImpl] opened session at timestamp: 14178399109 
+2014-12-06 09:55:10,902                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:10,902                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:10,902                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:10,902                         DEBUG  [AbstractSaveEventListener] generated identifier: 2, using strategy: org.hibernate.id.IncrementGenerator 
+2014-12-06 09:55:10,902                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:10,902                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:10,902                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:10,902                         DEBUG  [AbstractFlushingEventListener] Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:10,903                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:10,903                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:10,903                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=2, role=SuperUser} 
+2014-12-06 09:55:10,903                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,903                         DEBUG  [SQL] insert into ACTORS (user_role, id) values (?, ?) 
+2014-12-06 09:55:10,903                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:10,904                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:10,938                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:10,942                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:10,942                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:10,943                         DEBUG  [SessionImpl] opened session at timestamp: 14178399109 
+2014-12-06 09:55:10,943                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:10,943                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:10,943                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:10,943                         DEBUG  [AbstractSaveEventListener] generated identifier: 3, using strategy: org.hibernate.id.IncrementGenerator 
+2014-12-06 09:55:10,943                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:10,943                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:10,944                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:10,944                         DEBUG  [AbstractFlushingEventListener] Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:10,944                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:10,944                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:10,944                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=3, role=Standard User} 
+2014-12-06 09:55:10,944                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,944                         DEBUG  [SQL] insert into ACTORS (user_role, id) values (?, ?) 
+2014-12-06 09:55:10,944                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:10,945                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:10,979                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:10,979                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:10,979                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:10,980                         DEBUG  [SessionImpl] opened session at timestamp: 14178399109 
+2014-12-06 09:55:10,980                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:10,980                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:10,980                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:10,991                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:10,991                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:10,992                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:10,992                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects 
+2014-12-06 09:55:10,992                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:10,992                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:10,992                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=3, role=Standard User} 
+2014-12-06 09:55:10,992                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:10,992                         DEBUG  [SQL] delete from ACTORS where id=? 
+2014-12-06 09:55:10,993                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:10,995                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,026                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:11,026                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:11,026                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:11,027                         DEBUG  [SessionImpl] opened session at timestamp: 14178399110 
+2014-12-06 09:55:11,027                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:11,027                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:11,027                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:11,027                         DEBUG  [Loader] loading entity: [com.anurag.tutorial.model.DemoActor#3] 
+2014-12-06 09:55:11,027                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:11,027                         DEBUG  [SQL] select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:11,028                         DEBUG  [AbstractBatcher] about to open ResultSet (open ResultSets: 0, globally: 0) 
+2014-12-06 09:55:11,028                         DEBUG  [AbstractBatcher] about to close ResultSet (open ResultSets: 1, globally: 1) 
+2014-12-06 09:55:11,028                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,028                         DEBUG  [StatefulPersistenceContext] initializing non-lazy collections 
+2014-12-06 09:55:11,028                         DEBUG  [Loader] done entity load 
+2014-12-06 09:55:11,028                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:11,029                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:11,029                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:11,029                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:11,029                         DEBUG  [SessionImpl] opened session at timestamp: 14178399110 
+2014-12-06 09:55:11,029                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:11,030                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:11,030                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:11,030                         DEBUG  [AbstractSaveEventListener] generated identifier: 4, using strategy: org.hibernate.id.IncrementGenerator 
+2014-12-06 09:55:11,030                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:11,030                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:11,030                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:11,031                         DEBUG  [AbstractFlushingEventListener] Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:11,031                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:11,031                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:11,031                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=4, role=SuperUser} 
+2014-12-06 09:55:11,031                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:11,031                         DEBUG  [SQL] insert into ACTORS (user_role, id) values (?, ?) 
+2014-12-06 09:55:11,031                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:11,032                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,053                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:11,053                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:11,053                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:11,053                         DEBUG  [SessionImpl] opened session at timestamp: 14178399110 
+2014-12-06 09:55:11,053                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:11,053                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:11,054                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:11,054                         DEBUG  [Loader] loading entity: [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,054                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:11,054                         DEBUG  [SQL] select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:11,055                         DEBUG  [AbstractBatcher] about to open ResultSet (open ResultSets: 0, globally: 0) 
+2014-12-06 09:55:11,056                         DEBUG  [Loader] result row: EntityKey[com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,056                         DEBUG  [AbstractBatcher] about to close ResultSet (open ResultSets: 1, globally: 1) 
+2014-12-06 09:55:11,056                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,056                         DEBUG  [TwoPhaseLoad] resolving associations for [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,056                         DEBUG  [TwoPhaseLoad] done materializing entity [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,056                         DEBUG  [StatefulPersistenceContext] initializing non-lazy collections 
+2014-12-06 09:55:11,056                         DEBUG  [Loader] done entity load 
+2014-12-06 09:55:11,057                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:11,057                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:11,057                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:11,060                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:11,060                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:11,060                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:11,061                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=4, role=GUEST} 
+2014-12-06 09:55:11,061                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:11,061                         DEBUG  [SQL] update ACTORS set user_role=? where id=? 
+2014-12-06 09:55:11,062                         DEBUG  [AbstractBatcher] Executing batch size: 1 
+2014-12-06 09:55:11,063                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,103                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:11,103                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:11,104                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
+2014-12-06 09:55:11,104                         DEBUG  [SessionImpl] opened session at timestamp: 14178399111 
+2014-12-06 09:55:11,104                         DEBUG  [JDBCTransaction] begin 
+2014-12-06 09:55:11,104                         DEBUG  [ConnectionManager] opening JDBC connection 
+2014-12-06 09:55:11,104                         DEBUG  [JDBCTransaction] current autocommit status: false 
+2014-12-06 09:55:11,104                         DEBUG  [Loader] loading entity: [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,105                         DEBUG  [AbstractBatcher] about to open PreparedStatement (open PreparedStatements: 0, globally: 0) 
+2014-12-06 09:55:11,105                         DEBUG  [SQL] select demoactor0_.id as id0_0_, demoactor0_.user_role as user2_0_0_ from ACTORS demoactor0_ where demoactor0_.id=? 
+2014-12-06 09:55:11,108                         DEBUG  [AbstractBatcher] about to open ResultSet (open ResultSets: 0, globally: 0) 
+2014-12-06 09:55:11,108                         DEBUG  [Loader] result row: EntityKey[com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,108                         DEBUG  [AbstractBatcher] about to close ResultSet (open ResultSets: 1, globally: 1) 
+2014-12-06 09:55:11,108                         DEBUG  [AbstractBatcher] about to close PreparedStatement (open PreparedStatements: 1, globally: 1) 
+2014-12-06 09:55:11,109                         DEBUG  [TwoPhaseLoad] resolving associations for [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,109                         DEBUG  [TwoPhaseLoad] done materializing entity [com.anurag.tutorial.model.DemoActor#4] 
+2014-12-06 09:55:11,109                         DEBUG  [StatefulPersistenceContext] initializing non-lazy collections 
+2014-12-06 09:55:11,109                         DEBUG  [Loader] done entity load 
+2014-12-06 09:55:11,109                         DEBUG  [JDBCTransaction] commit 
+2014-12-06 09:55:11,109                         DEBUG  [AbstractFlushingEventListener] processing flush-time cascades 
+2014-12-06 09:55:11,109                         DEBUG  [AbstractFlushingEventListener] dirty checking collections 
+2014-12-06 09:55:11,109                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects 
+2014-12-06 09:55:11,109                         DEBUG  [AbstractFlushingEventListener] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+2014-12-06 09:55:11,110                         DEBUG  [Printer] listing entities: 
+2014-12-06 09:55:11,110                         DEBUG  [Printer] com.anurag.tutorial.model.DemoActor{id=4, role=GUEST} 
+2014-12-06 09:55:11,110                         DEBUG  [JDBCTransaction] committed JDBC Connection 
+2014-12-06 09:55:11,110                         DEBUG  [ConnectionManager] aggressively releasing JDBC connection 
+2014-12-06 09:55:11,110                         DEBUG  [ConnectionManager] releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)] 
