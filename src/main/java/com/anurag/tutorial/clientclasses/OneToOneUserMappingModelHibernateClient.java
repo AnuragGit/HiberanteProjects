@@ -62,10 +62,16 @@ public class OneToOneUserMappingModelHibernateClient {
 }
 
 /*Output:-
-
 Hibernate: insert into OneToOneVehicle (VEHICLE_NAME) values (?)
 Hibernate: insert into OneToOneUser (USER_NAME, VEHICLE_ID) values (?, ?)
-Hibernate: select onetooneus0_.USER_ID as USER1_8_1_, onetooneus0_.USER_NAME as USER2_8_1_, onetooneus0_.VEHICLE_ID as VEHICLE3_8_1_, onetooneve1_.VEHICLE_ID as VEHICLE1_9_0_, onetooneve1_.VEHICLE_NAME as VEHICLE2_9_0_ from OneToOneUser onetooneus0_ left outer join OneToOneVehicle onetooneve1_ on onetooneus0_.VEHICLE_ID=onetooneve1_.VEHICLE_ID where onetooneus0_.USER_ID=?
-OneToOneUserMapping [userId=1, userName=Dinesh Rajput, vehicle=OneToOneVehicalMapping [vehicleId=1, vehicleName=BMW Car]]
-
+===========After changing the process of save =======
+Hibernate: insert into OneToOneUser (USER_NAME, VEHICLE_ID) values (?, ?)
+Hibernate: insert into OneToOneVehicle (VEHICLE_NAME) values (?)
+Hibernate: update OneToOneUser set USER_NAME=?, VEHICLE_ID=? where USER_ID=?
+=============Fetching process==================
+Hibernate: select onetooneus0_.USER_ID as USER1_8_0_, onetooneus0_.USER_NAME as USER2_8_0_, onetooneus0_.VEHICLE_ID as VEHICLE3_8_0_ from OneToOneUser onetooneus0_ where onetooneus0_.USER_ID=?
+Hibernate: select onetooneve0_.VEHICLE_ID as VEHICLE1_9_0_, onetooneve0_.VEHICLE_NAME as VEHICLE2_9_0_ from OneToOneVehicle onetooneve0_ where onetooneve0_.VEHICLE_ID=?
+OneToOneUserMapping [userId=1, userName=Anurag , vehicle=OneToOneVehicalMapping [vehicleId=1, vehicleName=BMW Car]]
+Hibernate: select onetooneus0_.USER_ID as USER1_8_0_, onetooneus0_.USER_NAME as USER2_8_0_, onetooneus0_.VEHICLE_ID as VEHICLE3_8_0_ from OneToOneUser onetooneus0_ where onetooneus0_.USER_ID=?
+Amar 
 */

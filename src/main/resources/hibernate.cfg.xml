@@ -54,6 +54,17 @@
         <!--  One to One Mapping -->
         <mapping class="com.anurag.tutorial.model.OneToOneUserMapping"/>
         <mapping class="com.anurag.tutorial.model.OneToOneVehicalMapping"/>
+        
+        
+        <!--  One to Many Mapping -->
+        <mapping class="com.anurag.tutorial.model.OneToManyUser"/>
+        <mapping class="com.anurag.tutorial.model.OneToManyVehicle"/>
+        
+        
+        <!--  One to Many Mapping -->
+        <mapping class="com.anurag.tutorial.model.ManyToOneUser"/>
+        <mapping class="com.anurag.tutorial.model.ManyToOneVehicle"/>
+        
 
 
     </session-factory>
