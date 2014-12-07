@@ -1,21 +1,20 @@
 package com.anurag.tutorial.model;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="OneToMany_USER")
-public class OneToManyUser {
+@Table(name="OneToOneUserWithCasscaded")
+public class OneToOneUserWithCasscaded {
+
 	@Id
 	@Column(name = "USER_ID")
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,21 +23,20 @@ public class OneToManyUser {
 	@Column(name = "USER_NAME")
 	private String userName;
 
-	@OneToMany
-	@JoinTable(name = "OneToMany_USER_VEHICLE", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
-	// its optional using for name configuration of the join table
-	private Collection<OneToManyVehicle> vehicle = new ArrayList<OneToManyVehicle>();
+	@OneToOne(fetch=FetchType.LAZY,cascade=CascadeType.ALL)
+	@JoinColumn(name = "VEHICLE_ID")
+	private OneToOneVehicalMapping vehicle;
 
-	public int getUserId() {
-		return userId;
-	}
-
-	public Collection<OneToManyVehicle> getVehicle() {
+	public OneToOneVehicalMapping getVehicle() {
 		return vehicle;
 	}
 
-	public void setVehicle(Collection<OneToManyVehicle> vehicle) {
+	public void setVehicle(OneToOneVehicalMapping vehicle) {
 		this.vehicle = vehicle;
+	}
+
+	public int getUserId() {
+		return userId;
 	}
 
 	public void setUserId(int userId) {
@@ -55,9 +53,8 @@ public class OneToManyUser {
 
 	@Override
 	public String toString() {
-		return "OneToManyUser [userId=" + userId + ", userName=" + userName
-				+ ", vehicle=" + vehicle + "]";
+		return "OneToOneUserMapping [userId=" + userId + ", userName="
+				+ userName + ", vehicle=" + vehicle + "]";
 	}
-	
 	
 }

@@ -46,10 +46,11 @@ Output:-
 Hibernate: insert into OneToMany_VEHICLE (VEHICLE_NAME) values (?)
 Hibernate: insert into OneToMany_VEHICLE (VEHICLE_NAME) values (?)
 Hibernate: insert into OneToMany_USER (USER_NAME) values (?)
-Hibernate: insert into USER_VEHICLE (USER_ID, VEHICLE_ID) values (?, ?)
-Hibernate: insert into USER_VEHICLE (USER_ID, VEHICLE_ID) values (?, ?)
+Hibernate: insert into OneToMany_USER_VEHICLE (USER_ID, VEHICLE_ID) values (?, ?)
+Hibernate: insert into OneToMany_USER_VEHICLE (USER_ID, VEHICLE_ID) values (?, ?)
 =====================================================
 Hibernate: select onetomanyu0_.USER_ID as USER1_10_0_, onetomanyu0_.USER_NAME as USER2_10_0_ from OneToMany_USER onetomanyu0_ where onetomanyu0_.USER_ID=?
 Anurag Sonit
+
 
 */

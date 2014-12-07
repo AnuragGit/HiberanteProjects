@@ -74,6 +74,18 @@
         <mapping class="com.anurag.tutorial.model.ManyToManyUser"/>
         <mapping class="com.anurag.tutorial.model.ManyToManyVehicle"/>
         
+        
+        <!--  casscading  -->
+        <mapping class="com.anurag.tutorial.model.OneToOneUserWithCasscaded"/>
+        <mapping class="com.anurag.tutorial.model.OneToManyUserWithCasscaded"/>
+        <mapping class="com.anurag.tutorial.model.ManyToManyUserWithCasscaded"/>
+        <mapping class="com.anurag.tutorial.model.ManyToManyVehicleWithCasscaded"/>
+        
+        <!--  Ihneritance  -->
+        <mapping class="com.anurag.tutorial.model.InheritanceVehicle"/>
+        <mapping class="com.anurag.tutorial.model.TwoWheeler"/>
+        <mapping class="com.anurag.tutorial.model.FourWheeler"/>
+        
 
 
     </session-factory>

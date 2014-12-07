@@ -3,6 +3,7 @@ package com.anurag.tutorial.model;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,12 +11,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="OneToMany_USER")
-public class OneToManyUser {
+@Table(name="ManyToManyUserWithCasscaded")
+public class ManyToManyUserWithCasscaded {
+	
 	@Id
 	@Column(name = "USER_ID")
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,20 +26,21 @@ public class OneToManyUser {
 	@Column(name = "USER_NAME")
 	private String userName;
 
-	@OneToMany
-	@JoinTable(name = "OneToMany_USER_VEHICLE", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
+	@ManyToMany(cascade=CascadeType.ALL)
+	@JoinTable(name = "Casscaded_MANYUSER_MANYVEHICLE", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
 	// its optional using for name configuration of the join table
-	private Collection<OneToManyVehicle> vehicle = new ArrayList<OneToManyVehicle>();
+
+	private Collection<ManyToManyVehicleWithCasscaded> vehicle = new ArrayList<ManyToManyVehicleWithCasscaded>();
 
 	public int getUserId() {
 		return userId;
 	}
 
-	public Collection<OneToManyVehicle> getVehicle() {
+	public Collection<ManyToManyVehicleWithCasscaded> getVehicle() {
 		return vehicle;
 	}
 
-	public void setVehicle(Collection<OneToManyVehicle> vehicle) {
+	public void setVehicle(Collection<ManyToManyVehicleWithCasscaded> vehicle) {
 		this.vehicle = vehicle;
 	}
 
@@ -55,9 +58,8 @@ public class OneToManyUser {
 
 	@Override
 	public String toString() {
-		return "OneToManyUser [userId=" + userId + ", userName=" + userName
+		return "ManyToManyUser [userId=" + userId + ", userName=" + userName
 				+ ", vehicle=" + vehicle + "]";
 	}
-	
 	
 }

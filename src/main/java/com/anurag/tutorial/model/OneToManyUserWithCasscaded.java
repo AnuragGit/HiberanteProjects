@@ -3,6 +3,7 @@ package com.anurag.tutorial.model;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,8 +15,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="OneToMany_USER")
-public class OneToManyUser {
+@Table(name="OneToManyUserWithCasscaded")
+public class OneToManyUserWithCasscaded {
+	
 	@Id
 	@Column(name = "USER_ID")
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -24,8 +26,8 @@ public class OneToManyUser {
 	@Column(name = "USER_NAME")
 	private String userName;
 
-	@OneToMany
-	@JoinTable(name = "OneToMany_USER_VEHICLE", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
+	@OneToMany(cascade=CascadeType.ALL)
+	@JoinTable(name = "OneToMany_CassacdedUSER_VEHICLE", joinColumns = @JoinColumn(name = "USER_ID"), inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
 	// its optional using for name configuration of the join table
 	private Collection<OneToManyVehicle> vehicle = new ArrayList<OneToManyVehicle>();
 
@@ -58,6 +60,4 @@ public class OneToManyUser {
 		return "OneToManyUser [userId=" + userId + ", userName=" + userName
 				+ ", vehicle=" + vehicle + "]";
 	}
-	
-	
 }
