@@ -44,8 +44,12 @@
         <!-- This is the entity class that we'll be testing. -->
         <mapping class="com.anurag.tutorial.model.DemoActor"/>
         <mapping class="com.anurag.tutorial.model.UserDetails"/>
+        
+        <!--  Embeded Mapping -->        
         <mapping class="com.anurag.tutorial.model.EmbededUserDetails"/>
         <mapping class="com.anurag.tutorial.model.EmbededUserDetails2"/>
+       
+        <!--  Element Collection  Mapping -->
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails2"/>
         <mapping class="com.anurag.tutorial.model.ElementcollectionsUserDetails3"/>
@@ -64,6 +68,11 @@
         <!--  One to Many Mapping -->
         <mapping class="com.anurag.tutorial.model.ManyToOneUser"/>
         <mapping class="com.anurag.tutorial.model.ManyToOneVehicle"/>
+        
+       
+        <!--  Many to Many Mapping -->
+        <mapping class="com.anurag.tutorial.model.ManyToManyUser"/>
+        <mapping class="com.anurag.tutorial.model.ManyToManyVehicle"/>
         
 
 
